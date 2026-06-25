@@ -29,3 +29,5 @@ Sitio web de portafolio personal creado como proyecto del Sprint 4 del bootcamp 
 - Git y GitHub
 
 ## Enlace al proyecto
+
+https://github.com/JdPimentel/web_project_portfolio_es
