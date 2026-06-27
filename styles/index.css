@@ -82,7 +82,7 @@ a {
   max-width: 790px;
   font-family: "Archivo Black", Arial, sans-serif;
   font-size: 72px;
-  line-height: 78px;
+  line-height: 1.08;
   color: #ffffff;
 }
 
@@ -92,14 +92,14 @@ a {
   font-family: "Open Sans", Arial, sans-serif;
   color: #9aa3c7;
   font-size: 18px;
-  line-height: 25px;
+  line-height: 1.39;
 }
 
 .header__description {
   margin: 30px 0 0;
   max-width: 793px;
   font-size: 18px;
-  line-height: 25px;
+  line-height: 1.39;
   color: #ffffff;
 }
 
@@ -135,7 +135,7 @@ a {
   margin: 0;
   font-family: "Archivo Black", Arial, sans-serif;
   font-size: 40px;
-  line-height: 44px;
+  line-height: 1.1;
   color: #ffffff;
 }
 
@@ -143,7 +143,15 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 50px;
+  margin: 50px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.skills__item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .skills__logo {
@@ -168,7 +176,7 @@ a {
   margin: 0;
   font-family: "Archivo Black", Arial, sans-serif;
   font-size: 40px;
-  line-height: 44px;
+  line-height: 1.1;
   color: #ffffff;
 }
 
@@ -181,6 +189,8 @@ a {
 .project {
   width: calc((100% - 20px) / 2);
   background-color: #171717;
+  display: flex;
+  flex-direction: column;
 }
 
 .project__image--wrapper {
@@ -222,27 +232,30 @@ a {
 .project__content {
   padding: 30px;
   background-color: #171717;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
 }
 
 .project__title {
   margin: 0;
   font-family: "Archivo Black", Arial, sans-serif;
   font-size: 24px;
-  line-height: 33px;
+  line-height: 1.38;
   color: #ffffff;
 }
 
 .project__description {
-  margin: 20px 0 0;
+  margin: 20px 0 30px;
   font-size: 18px;
-  line-height: 25px;
+  line-height: 1.39;
   color: #ffffff;
 }
 
 .project__links {
   display: flex;
   gap: 20px;
-  margin-top: 30px;
+  margin-top: auto;
 }
 
 .project__link {
@@ -276,7 +289,7 @@ a {
   margin: 0;
   font-family: "Archivo Black", Arial, sans-serif;
   font-size: 40px;
-  line-height: 44px;
+  line-height: 1.1;
   color: #ffffff;
 }
 
@@ -346,17 +359,17 @@ a {
 
   .header__title {
     font-size: 58px;
-    line-height: 63px;
+    line-height: 1.09;
   }
 
   .header__subtitle {
     font-size: 18px;
-    line-height: 25px;
+    line-height: 1.39;
   }
 
   .header__description {
     font-size: 18px;
-    line-height: 25px;
+    line-height: 1.39;
   }
 
   .header__links a {
@@ -377,7 +390,7 @@ a {
   .projects__title,
   .contact__title {
     font-size: 40px;
-    line-height: 44px;
+    line-height: 1.1;
   }
 
   .projects {
@@ -394,22 +407,22 @@ a {
 
   .project__title {
     font-size: 24px;
-    line-height: 33px;
+    line-height: 1.38;
   }
 
   .project__description {
     font-size: 18px;
-    line-height: 25px;
+    line-height: 1.39;
   }
 
   .project__links a {
     font-size: 18px;
-    line-height: 25px;
+    line-height: 1.39;
   }
 
   .contact__email {
     font-size: 18px;
-    line-height: 25px;
+    line-height: 1.39;
   }
 }
 
@@ -420,17 +433,17 @@ a {
 
   .header__title {
     font-size: 36px;
-    line-height: 39px;
+    line-height: 1.08;
   }
 
   .header__subtitle {
     font-size: 16px;
-    line-height: 22px;
+    line-height: 1.38;
   }
 
   .header__description {
     font-size: 16px;
-    line-height: 22px;
+    line-height: 1.38;
   }
 
   .header__links {
@@ -457,7 +470,7 @@ a {
   .projects__title,
   .contact__title {
     font-size: 28px;
-    line-height: 30px;
+    line-height: 1.07;
   }
 
   .skills__list {
@@ -471,21 +484,33 @@ a {
 
   .project__title {
     font-size: 20px;
-    line-height: 27px;
+    line-height: 1.35;
   }
 
   .project__description {
     font-size: 16px;
-    line-height: 22px;
+    line-height: 1.38;
   }
 
   .project__links a {
     font-size: 16px;
-    line-height: 22px;
+    line-height: 1.38;
   }
 
   .contact__email {
     font-size: 18px;
-    line-height: 25px;
+    line-height: 1.39;
+  }
+
+  .contact {
+    padding: 60px 20px 0;
+  }
+
+  .footer {
+    padding: 30px 20px 60px;
+  }
+
+  .footer__social {
+    gap: 40px;
   }
 }
